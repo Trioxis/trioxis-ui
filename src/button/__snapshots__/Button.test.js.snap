@@ -119,20 +119,21 @@ exports[`Button should render as snapshot defines 1`] = `
             >
               
 .button-0-0 {
-  color: #00868C;
-  border: 3px solid #00868C;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  padding: 14px 54px;
+  padding: 18px 54px;
   font-size: 14px;
   background: rgba(0,0,0,0);
   font-weight: 700;
   font-family: Open Sans,sans-serif;
   line-height: 1.5;
   border-radius: 500px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
+  transition-duration: 0.2s;
 }
 
             </style>,
@@ -150,53 +151,56 @@ exports[`Button should render as snapshot defines 1`] = `
             "index": Array [
               Object {
                 "background": "rgba(0,0,0,0)",
-                "border": "3px solid #00868C",
+                "border": "3px solid #FFFFFF",
                 "border-radius": "500px",
-                "color": "#00868C",
+                "color": "#FFFFFF",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
                 "font-size": "14px",
                 "font-weight": "700",
-                "letter-spacing": "1.5px",
+                "letter-spacing": "2px",
                 "line-height": "1.5",
-                "padding": "14px 54px",
+                "padding": "18px 54px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition-duration": "0.2s",
               },
             ],
             "map": Object {
               ".button-0-0": Object {
                 "background": "rgba(0,0,0,0)",
-                "border": "3px solid #00868C",
+                "border": "3px solid #FFFFFF",
                 "border-radius": "500px",
-                "color": "#00868C",
+                "color": "#FFFFFF",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
                 "font-size": "14px",
                 "font-weight": "700",
-                "letter-spacing": "1.5px",
+                "letter-spacing": "2px",
                 "line-height": "1.5",
-                "padding": "14px 54px",
+                "padding": "18px 54px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition-duration": "0.2s",
               },
               "button": Object {
                 "background": "rgba(0,0,0,0)",
-                "border": "3px solid #00868C",
+                "border": "3px solid #FFFFFF",
                 "border-radius": "500px",
-                "color": "#00868C",
+                "color": "#FFFFFF",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "font-family": "Open Sans,sans-serif",
                 "font-size": "14px",
                 "font-weight": "700",
-                "letter-spacing": "1.5px",
+                "letter-spacing": "2px",
                 "line-height": "1.5",
-                "padding": "14px 54px",
+                "padding": "18px 54px",
                 "text-decoration": "none",
                 "text-transform": "uppercase",
+                "transition-duration": "0.2s",
               },
             },
             "options": Object {
@@ -293,10 +297,10 @@ exports[`Button should render as snapshot defines 1`] = `
                 "border": Array [
                   3,
                   "solid",
-                  "#00868C",
+                  "#FFFFFF",
                 ],
                 "borderRadius": 500,
-                "color": "#00868C",
+                "color": "#FFFFFF",
                 "cursor": "pointer",
                 "display": "inline-block",
                 "fontFamily": Array [
@@ -305,14 +309,15 @@ exports[`Button should render as snapshot defines 1`] = `
                 ],
                 "fontSize": 14,
                 "fontWeight": 700,
-                "letterSpacing": 1.5,
+                "letterSpacing": 2,
                 "lineHeight": 1.5,
                 "padding": Array [
-                  14,
+                  18,
                   54,
                 ],
                 "textDecoration": "none",
                 "textTransform": "uppercase",
+                "transitionDuration": "0.2s",
               },
             },
           },
