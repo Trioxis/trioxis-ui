@@ -10,7 +10,7 @@ const styles = {
   wrapper: {
     paddingBottom: '3em',
     width: '100%',
-    backgroundColor: colors.N10,
+    background: ({bgColor})=> (bgColor || colors.N10),
   }
 };
 
@@ -19,12 +19,12 @@ function _Section (props) {
     classes,
     className,
     children,
-    style,
+    bgColor,
     ...remainingProps
   } = props;
 
   return (
-    <div className={classNames(classes.wrapper, className)} style={style}>
+    <div className={classNames(classes.wrapper, className)}>
       <ContentContainer>
         {children}
       </ContentContainer>
