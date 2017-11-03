@@ -7,7 +7,7 @@ import * as colors from '../theme/colors';
 import { ContentContainer } from '../contentContainer';
 
 const styles = {
-  wrapper: {
+  section: {
     paddingBottom: '3em',
     width: '100%',
     backgroundColor: colors.N10,
@@ -24,7 +24,7 @@ function _Section (props) {
   } = props;
 
   return (
-    <div className={classNames(classes.wrapper, className)} style={style}>
+    <div className={classNames(classes.section, className)} style={style}>
       <ContentContainer>
         {children}
       </ContentContainer>
